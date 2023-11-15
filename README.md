@@ -357,3 +357,8 @@ Para levantar los servicios definidos en un archivo `docker-compose.yml`, primer
    ```
 
 Estos pasos te permitirán levantar los servicios definidos en el archivo `docker-compose.yml` utilizando Docker Compose. Recuerda que debes tener Docker y Docker Compose instalados en tu máquina para realizar estas acciones.
+
+docker login
+docker compose build
+docker tag api-rest-itsm-api-rest zegnhabi/api-rest-itsm
+docker push zegnhabi/api-rest-itsm
